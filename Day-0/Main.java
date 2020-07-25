@@ -8,7 +8,8 @@ public class Main {
         array.insert(35);
         array.insert(99);
         array.insert(45);
-        array.deleteLastElement();
+        array.insert(77);
+        array.deleteElementAtIndex(2);
         array.sizeOfArray();
         array.printArray();
      

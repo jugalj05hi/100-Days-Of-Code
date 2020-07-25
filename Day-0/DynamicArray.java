@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class DynamicArray {
 
-    private int[] arr;
+    
+	private int[] arr;
     private int counter = 0;
     private int size;
 
@@ -41,6 +42,24 @@ public class DynamicArray {
             arr[counter-1] = 0;
             counter--;
         }
+    }
+    void deleteFirstElement(){
+
+        for(int i=0; i<counter; i++){
+
+            arr[i] = arr[i+1];
+        }
+    }
+
+    void deleteElementAtIndex(int index){
+        
+        if(index < size){
+
+            for(int i = index; i<counter; i++){
+                arr[i] = arr[i+1];
+            }
+        }
+           
     }
 
     void printArray() {
