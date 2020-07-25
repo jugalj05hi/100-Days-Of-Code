@@ -1,1 +1,4 @@
-# Day-0 Brushing-up Java basics 
+# Day-0 Warm-up
+<ol>
+	<li> Brushing up Java </li>
+</ol>
