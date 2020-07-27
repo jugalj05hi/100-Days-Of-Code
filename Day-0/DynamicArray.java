@@ -62,6 +62,18 @@ public class DynamicArray {
            
     }
 
+    void insertElementAtIndex(int index, int value){
+
+        if(index >0 && index<size-1){
+
+            for(int i=counter; i>=index; i--){
+
+                arr[i+1] = arr[i];
+            }
+        }
+        arr[index] = value;
+    }
+   
     void printArray() {
 
         System.out.println(Arrays.toString(arr));
