@@ -1,4 +1,4 @@
-# Day-1: Getting started with sorting Algorithms
+# Day-1: Getting started with Sorting Algorithms
 <ol>
     <li> Selection Sort </li>
         <ul>
